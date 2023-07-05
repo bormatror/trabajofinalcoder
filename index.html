@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <span class="text-primary">FMS</span>arg</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarS"
+          aria-controls="navbarS"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarS">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/batalla.html" class="nav-link">Batallas</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/competidores.html" class="nav-link"
+                >Competidores</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./pages/calendario.html" class="nav-link">Calendario</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/otrasfms.html" class="nav-link">Otrasfms</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/contacto.html" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselE"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselE"
+          data-bs-slide-to="1"
+          aria-current="true"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselE"
+          data-bs-slide-to="2"
+          aria-current="true"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/batalla.avif" class="d-block w-100" alt="" />
+          <div class="carousel-caption">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate odio incidunt quibusdam, quidem aliquam id delectus,
+              veritatis omnis tenetur consequuntur aut at ipsum? Obcaecati ipsum
+              eius nulla illum veritatis dolores?
+            </p>
+            <a href="" class="btn btn-primary mt-3">Mas informacion</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/posiciones.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate odio incidunt quibusdam, quidem aliquam id delectus,
+              veritatis omnis tenetur consequuntur aut at ipsum? Obcaecati ipsum
+              eius nulla illum veritatis dolores?
+            </p>
+            <a href="" class="btn btn-primary mt-3">Mas informacion</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Fms_inter.webp" class="d-block w-100" alt="" />
+          <div class="carousel-caption">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate odio incidunt quibusdam, quidem aliquam id delectus,
+              veritatis omnis tenetur consequuntur aut at ipsum? Obcaecati ipsum
+              eius nulla illum veritatis dolores?
+            </p>
+            <a href="" class="btn btn-primary mt-3">Mas informacion</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselE"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselE"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="about-img">
+              <img src="./img/portada.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text text-white">
+              <h2>
+                Lorem, ipsum dolor. <br />
+                Lorem.
+              </h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Doloremque assumenda quibusdam enim molestias fuga hic veniam.
+                Temporibus ut saepe tempora praesentium, harum optio ullam
+                atque? Autem, nihil exercitationem! Earum, distinctio?
+              </p>
+              <a href="" class="btn btn-primary"> Mas informacion</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center text-white pb-5">
+              <h2>Lorem, ipsum.</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                magnam dolore illum, deleniti totam quod repudiandae fugiat
+                sequi illo fugit officiis, <br />
+                ipsam vero molestiae aliquam! Nam deserunt illo iusto
+                voluptatum!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-laptop"></i>
+                <h3 class="card title">Registro</h3>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+                  hic accusamus quisquam natus eaque inventore dolorem totam
+                  aliquid tempore pariatur, doloremque commodi molestiae eum
+                  dicta. Explicabo ratione saepe quod consequuntur!
+                </p>
+                <button class="btn bg-primary text-white">
+                  Mas informacion
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-wifi"></i>
+                <h3 class="card title">Internet</h3>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+                  hic accusamus quisquam natus eaque inventore dolorem totam
+                  aliquid tempore pariatur, doloremque commodi molestiae eum
+                  dicta. Explicabo ratione saepe quod consequuntur!
+                </p>
+                <button class="btn bg-primary text-white">
+                  Mas informacion
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-tv"></i>
+                <h3 class="card title">TV</h3>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+                  hic accusamus quisquam natus eaque inventore dolorem totam
+                  aliquid tempore pariatur, doloremque commodi molestiae eum
+                  dicta. Explicabo ratione saepe quod consequuntur!
+                </p>
+                <button class="btn bg-primary text-white">
+                  Mas informacion
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="porfolio section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center text-white pb-5">
+              <h2>Playas</h2>
+              <p>Lorem ipsum dolor sit amet <br />consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-light text-center bg-dark pb-2">
+              <div class="card-body text-white">
+                <div class="img-area mb-4">
+                  <img src="./img/papo.jpg" class="img-fluid" alt="" />
+                  <h3>Papo</h3>
+                  <p class="lead">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Amet totam saepe veritatis ex ipsa facere temporibus
+                    reprehenderit corrupti, deleniti consectetur nesciunt,
+                    voluptates adipisci placeat alias aspernatur eveniet esse
+                    quasi doloribus.
+                  </p>
+                  <button class="btn bg-primary text-white">
+                    Mas informacion
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-light text-center bg-dark pb-2">
+              <div class="card-body text-white">
+                <div class="img-area mb-4">
+                  <img src="./img/mecha.webp" class="img-fluid" alt="" />
+                  <h3>Mecha</h3>
+                  <p class="lead">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Amet totam saepe veritatis ex ipsa facere temporibus
+                    reprehenderit corrupti, deleniti consectetur nesciunt,
+                    voluptates adipisci placeat alias aspernatur eveniet esse
+                    quasi doloribus.
+                  </p>
+                  <button class="btn bg-primary text-white">
+                    Mas informacion
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-light text-center bg-dark pb-2">
+              <div class="card-body text-white">
+                <div class="img-area mb-4">
+                  <img
+                    src="./img/LARRIX-BANNER.webp"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <h3>Larrix</h3>
+                  <p class="lead">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Amet totam saepe veritatis ex ipsa facere temporibus
+                    reprehenderit corrupti, deleniti consectetur nesciunt,
+                    voluptates adipisci placeat alias aspernatur eveniet esse
+                    quasi doloribus.
+                  </p>
+                  <button class="btn bg-primary text-white">
+                    Mas informacion
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center text-white pb-5">
+              <h2>Asesores</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                commodi dolorem recusandae possimus, non magni iste officiis
+                <br />cupiditate soluta eum sed sint, facere assumenda fugiat
+                alias nobis a animi eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center bg-dark">
+              <div class="card-body text-white">
+                <img
+                  src="./img/teamfoto.webp"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title py-2">lorem</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-white mx-1"></i>
+                  <i class="bi bi-facebook text-white mx-1"></i>
+                  <i class="bi bi-linkedin text-white mx-1"></i>
+                  <i class="bi bi-instagram text-white mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center bg-dark">
+              <div class="card-body text-white">
+                <img
+                  src="./img/teamfoto.webp"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title py-2">lorem</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-white mx-1"></i>
+                  <i class="bi bi-facebook text-white mx-1"></i>
+                  <i class="bi bi-linkedin text-white mx-1"></i>
+                  <i class="bi bi-instagram text-white mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center bg-dark">
+              <div class="card-body text-white">
+                <img
+                  src="./img/teamfoto.webp"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title py-2">lorem</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-white mx-1"></i>
+                  <i class="bi bi-facebook text-white mx-1"></i>
+                  <i class="bi bi-linkedin text-white mx-1"></i>
+                  <i class="bi bi-instagram text-white mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center bg-dark">
+              <div class="card-body text-white">
+                <img
+                  src="./img/teamfoto.webp"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title py-2">lorem</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-white mx-1"></i>
+                  <i class="bi bi-facebook text-white mx-1"></i>
+                  <i class="bi bi-linkedin text-white mx-1"></i>
+                  <i class="bi bi-instagram text-white mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Contact section-padding">
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header tex-center text-white pb-5">
+              <h2>Contacto</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi ipsam eius dicta consequuntur <br />non nobis illo
+                culpa cum repellat tempore nesciunt aperiam sit distinctio, ipsa
+                quibusdam ea! Ea, accusamus iste.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-12 p-0 pt-4 pb-4">
+            <form action="" class="bg-dark p-4 m-auto"></form>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="nombre"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="correo"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    placeholder="mensaje"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-lg btn-block mt-3">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark p-2 text-center">
+      <div class="container">
+        <p class="text-white">FMSarg</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
