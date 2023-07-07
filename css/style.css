@@ -118,3 +118,44 @@ body {
         padding: 50px 0;
     }
 }
+
+/* otrasFms */ 
+
+.grid-container {
+    
+    display: grid;
+    margin-top: 100px;
+    gap: 10px;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 500px 500px 500px 500px;
+    justify-content: center;
+}
+
+.grid-container .h3esp {
+    color: #b8173a;
+}
+
+
+.fmsperu {
+}
+.grid-container .h3peru {
+    color: rgb(201, 38, 38);
+}
+
+.grid-container .h3chile {
+    color: rgb(51, 128, 201);
+}
+
+.grid-container .h3col {
+    color: rgb(255, 251, 0);
+}
+
+.grid-container .h3mex {
+    color: #39ff12;
+}
+
+.grid-container iframe {
+    width: 80%;
+    height: 12cm;
+}
