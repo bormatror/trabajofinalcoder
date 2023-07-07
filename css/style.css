@@ -137,8 +137,6 @@ body {
 }
 
 
-.fmsperu {
-}
 .grid-container .h3peru {
     color: rgb(201, 38, 38);
 }
@@ -158,4 +156,10 @@ body {
 .grid-container iframe {
     width: 80%;
     height: 12cm;
+}
+
+/* Calendario */
+
+.table-responsive h2 {
+    color: #fff;
 }
